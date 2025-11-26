@@ -239,7 +239,7 @@ export default function Home() {
       </div>
 
       {/* Mobile App Promo */}
-      <div id="download" className="w-full max-w-4xl mt-16 p-8 rounded-3xl bg-gradient-to-br from-blue-600 to-blue-800 text-white shadow-2xl relative overflow-hidden">
+      {/* <div id="download" className="w-full max-w-4xl mt-16 p-8 rounded-3xl bg-gradient-to-br from-blue-600 to-blue-800 text-white shadow-2xl relative overflow-hidden">
         <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -mr-16 -mt-16"></div>
         <div className="absolute bottom-0 left-0 w-40 h-40 bg-black/10 rounded-full blur-3xl -ml-10 -mb-10"></div>
         
@@ -264,7 +264,7 @@ export default function Home() {
                 </div>
             </div>
             
-            {/* Phone Mockup (CSS only) */}
+      
             <div className="relative w-32 h-64 bg-zinc-900 rounded-[2rem] border-4 border-zinc-800 shadow-xl flex flex-col items-center justify-center overflow-hidden shrink-0 transform rotate-[-10deg] hover:rotate-0 transition-transform duration-500">
                 <div className="absolute top-0 w-20 h-4 bg-black rounded-b-xl z-20"></div>
                 <div className="w-full h-full bg-zinc-800 flex items-center justify-center">
@@ -273,8 +273,8 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </div>
-      </div>
+        </div> 
+      </div> */}
 
       {/* SEO Content Section */}
       <section className="w-full max-w-4xl mt-24 space-y-16 text-zinc-800 dark:text-zinc-200">

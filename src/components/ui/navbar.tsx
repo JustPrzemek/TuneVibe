@@ -42,11 +42,11 @@ export default function Navbar() {
             <LanguageSelector />
             <ModeToggle />
           </div>
-          <Link href="/#download">
+          {/* <Link href="/#download">
             <Button size="sm" className="bg-blue-600 hover:bg-blue-700 text-white shadow-lg shadow-blue-500/20">
               {t.common.getApp}
             </Button>
-          </Link>
+          </Link> */}
         </nav>
 
         {/* Mobile Menu Button */}
@@ -77,11 +77,11 @@ export default function Navbar() {
                     </div>
                 </div>
 
-                <Link href="/#download" onClick={() => setIsMenuOpen(false)}>
+                {/* <Link href="/#download" onClick={() => setIsMenuOpen(false)}>
                     <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white shadow-lg shadow-blue-500/20">
                     {t.common.getApp}
                     </Button>
-                </Link>
+                </Link> */}
             </nav>
         </div>
       )}
